@@ -20,7 +20,7 @@ Do not fork this repo. Simply create your own repo called "riffy-proposal" and c
 What we want for this planning phase is a plan/proposal/outline with the following sections:
 
 * App Summary - what your app will do. Write it as if you're describing it to a lay person. Don't care about node or JavaScript; just what your app does for the user. Color Cleaver's might be, "Tells the user which colors combine to make their chosen color, or what color the colors they choose combine to make."
-* App Logic - what decisions the app will make based on the user input. Color Cleaver's would discuss how it will choose to combine or break apart the user's input based on how many inputs it gets, and that the combination/breaking apart will be based on WHICH color(s) it gets.
+* App Logic - HOW your app does it. Color Cleaver's would discuss how it has a different if check for each color or pair of colors, and how it decides to combine or break apart depending on how many colors the user inputs.
 * Stretch Goals - your own ideas for where you could take this app. Think of this as the ambitious version of your app. For Color Cleaver, it might mean being able to handle non-primary and non-secondary colors, or giving html color codes, or finding colors that work together into a palette.
 
 
