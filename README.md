@@ -2,24 +2,26 @@
 
 ### Introduction
 
-Today you're going to make a little node app OF OUR OWN DESIGN that can take in user input and spit out appropriate output. Because we're all node ninjas now!
-
-
-### Objectives
-
-After completing this assignment, you will be able to:
-
-* Parse command line text to find the arguments you want.
-* Format those arguments if need be.
-* Use `if` statements to branch your code.
-* Output text back to the user.
+Today you're going to plan out a node app of your very own design. Just plan! But... really plan.
 
 
 ### The Basics
 
-You'll be making a node app that uses `getInput` to take in input and `console.log` to provide output. And you get to pick what it does! There are some suggestions below, but you can _absolutely_ do something else. We'll be presenting these, so put your best foot forward!
+You'll be making a node app that uses `getInput` to take in input and `console.log` to provide output. And you get to pick what it does! There are some suggestions at the bottom of this readme, but you can _absolutely_ do something else. We'll be presenting these, so put your best foot forward!
 
-If you need a reminder how to use `getInput`, remember that we can use indices to grab different parts of it. Every _space-separated string_ the user writes after `node [filename].js` will be there, _starting at index 0_.  Importantly, they'll all come in as strings, so if you want booleans or numbers, you'll have to do conversion of one kind or another!
+
+### Workflow
+
+Do not fork this repo. Simply create your own repo called "riffy-proposal" and craft your plan as the README.md file.
+
+
+### Your Planning Process
+
+What we want for this planning phase is a plan/proposal/outline with the following sections:
+
+* App Summary - what your app will do. Write it as if you're describing it to a lay person. Don't care about node or JavaScript; just what your app does for the user. Color Cleaver's might be, "Tells the user which colors combine to make their chosen color, or what color the colors they choose combine to make."
+* App Logic - what decisions the app will make based on the user input. Color Cleaver's would discuss how it will choose to combine or break apart the user's input based on how many inputs it gets, and that the combination/breaking apart will be based on WHICH color(s) it gets.
+* Stretch Goals - your own ideas for where you could take this app. Think of this as the ambitious version of your app. For Color Cleaver, it might mean being able to handle non-primary and non-secondary colors, or giving html color codes, or finding colors that work together into a palette.
 
 
 ### Some Possible Apps To Make
@@ -36,12 +38,12 @@ This app takes in two numbers, a max and a guess. It calculates a random integer
 
 * Word Guessing Game
 
-This app
+This app takes in strings and tries them against hard-coded answers. It might, for example, see if you can guess the birth-year of a particular celebrity by typing in their name and a year. Or which dinosaurs lived in which periods. Or anything like that that you know (or could look up) the answer to.
 
 
 * Converter
 
-The easy version of this is Fahrenheit and Celsius. The middle option is one that can take in as a separate argument forthe direction the conversion is going. Are we converting to Fahrenheit or Celsius? The ambitious version of this app could convert not just temperature, but weight, size, length, etc. Then you would need a third argument--what are you converting _from_? With Celsius/Fahrenheit it's always the other one, but we could even convert from or to degrees _Kelvin_. Or from inches to feet, or centimeters to meters, or meters
+The easy version of this is Fahrenheit and Celsius. The middle option is one that can take in as a separate argument for the direction the conversion is going. Are we converting to Fahrenheit or Celsius? The ambitious version of this app could convert not just temperature, but weight, size, length, etc. Then you would need a third argument--what are you converting _from_? With Celsius/Fahrenheit it's always the other one, but we could even convert from or to degrees _Kelvin_. Or from inches to feet, or centimeters to meters, or meters
 to yards. Let the user decide!
 
 
@@ -52,6 +54,6 @@ This app takes in an overall bill, a tip percentage, and how many ways to split 
 
 ### Other Ideas
 
-Run ANYTHING else you want to do by us! As long as it's not absurdly easy or unrealistically time-consuming, we'll probably okay it. We might even okay an unrealistic one--be ambitious!
+Run ANYTHING else you want to do by us! As long as it uses some branching logic and isn't overly ambitious, we'll okay it! (We might even okay it even if it IS overly ambitious. Be brave!)
 
 Happy coding!
