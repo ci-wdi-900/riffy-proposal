@@ -43,7 +43,7 @@ This app takes in strings and tries them against hard-coded answers. It might, f
 
 * Fahrenheit/Celsius Converter
 
-Are we converting to Fahrenheit or Celsius? WHY NOT BOTH.  But then how many arguments we need?  With Celsius/Fahrenheit it's always the other one, so we only need to know the _to_ direction, but we could even convert from or to degrees Kelvin as well. Then you would need a third argument--what are you converting _from_? An ambitious version of this app could convert not just temperature, but weight, size, length, etc., all with different units. Let the user decide!
+Are we converting to Fahrenheit or Celsius? WHY NOT BOTH.  But then how many arguments do we need?  With Celsius/Fahrenheit it's always the other one, so we only need to know the _to_ direction, but we could even convert from or to degrees Kelvin as well. Then you would need a third argument--what are you converting _from_? An ambitious version of this app could convert not just temperature, but weight, size, length, etc., all with different units. Let the user decide!
 
 
 * Bill Split Calculator
