@@ -55,4 +55,9 @@ This app takes in an overall bill, a tip percentage, and how many ways to split 
 
 Run ANYTHING else you want to do by us! As long as it uses some branching logic and isn't overly ambitious, we'll okay it! (We might even okay it even if it IS overly ambitious. Be brave!)
 
+
+### See proposal example:
+1. [Riffy-proposal](https://github.com/ci-wdi-900/riffy-proposal)
+
+
 Happy coding!
